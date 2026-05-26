@@ -1,0 +1,101 @@
+// Stella Maris HR Consulting - SASS Animations
+
+// 1. Core Keyframe Animations
+
+// Subtle slide up and fade in for hero elements and cards
+@keyframes slideUpFade {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Fade in animation
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+// Soft floating effect for visual storytelling elements (like the lighthouse illustration)
+@keyframes floatSoft {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+// Gentle, slow pulsing for the North Star and glowing accents (highly optimized, low opacity variation)
+@keyframes starPulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+    filter: drop-shadow(0 0 2px rgba(197, 160, 89, 0.4));
+  }
+  50% {
+    transform: scale(1.08);
+    opacity: 1;
+    filter: drop-shadow(0 0 8px rgba(197, 160, 89, 0.7));
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.8;
+    filter: drop-shadow(0 0 2px rgba(197, 160, 89, 0.4));
+  }
+}
+
+// Slow sweeping light beam simulation (very subtle gradient sweep)
+@keyframes lightSweep {
+  0% {
+    transform: rotate(-15deg);
+  }
+  50% {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(-15deg);
+  }
+}
+
+// 2. Animation Utility Classes (Applied to components)
+
+.animate-fade-in {
+  animation: fadeIn 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-slide-up {
+  opacity: 0;
+  animation: slideUpFade 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-float {
+  animation: floatSoft 6s ease-in-out infinite;
+}
+
+.animate-star-pulse {
+  animation: starPulse 4s ease-in-out infinite;
+}
+
+.animate-light-sweep {
+  animation: lightSweep 12s ease-in-out infinite;
+  transform-origin: top center;
+}
+
+// Animation delays
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
