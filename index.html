@@ -4,992 +4,1300 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Stella Maris HR Consulting | Showing the Right Path</title>
-
-  <!-- SEO Meta Tags -->
   <meta name="description"
-    content="Stella Maris HR Consulting helps organizations and professionals find the right direction through expert HR solutions, talent acquisition, leadership development, and strategic hiring.">
-  <meta name="keywords"
-    content="HR Consulting, Recruitment, Talent Acquisition, Career Guidance, Leadership Development, Workforce Solutions, Stella Maris">
-  <meta name="author" content="Stella Maris HR Consulting">
-  <meta name="robots" content="index, follow">
+    content="Stella Maris HR Consulting - Lighting the way to talent, growth & success. Empowering organizations with strategic HR solutions, executive search, compliance, and transformation.">
+  <title>Stella Maris HR Consulting | Strategic HR & Talent Solutions</title>
 
-  <!-- Open Graph Meta Tags (Social Media Integration) -->
-  <meta property="og:title" content="Stella Maris HR Consulting | Showing the Right Path">
-  <meta property="og:description"
-    content="Guiding careers and building stronger businesses through people-focused HR consulting and strategic hiring solutions.">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/images/logo.jpg">
-  <meta property="og:url" content="https://stellamarishr.com">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-  <!-- Favicon -->
-  <link class="brand-favicon" rel="icon" type="image/jpeg" href="assets/images/logo.jpg">
-
-  <!-- Bootstrap 5 CSS CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-  <!-- Compiled Custom CSS -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <!-- ==================== HEADER / NAVBAR ==================== -->
-  <nav class="navbar navbar-expand-lg navbar-stella fixed-top" id="main-nav" role="navigation"
-    aria-label="Main Navigation">
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ==========================================
+       HEADER / NAVIGATION BAR
+       ========================================== -->
+  <header class="header">
     <div class="container">
-      <a class="navbar-brand logo-only" href="#">
-        <img src="assets/images/logo-bg.png" alt="Stella Maris HR Consulting">
-      </a>
+      <div class="logo-container">
+        <a href="#home" aria-label="Stella Maris HR Consulting Home">
+          <img src="logo-bg.png" alt="Stella Maris HR Consulting Logo" class="logo-img">
+        </a>
+      </div>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#stellaNavbar"
-        aria-controls="stellaNavbar" aria-expanded="false" aria-label="Toggle navigation" id="navbar-hamburger">
-        <span class="toggler-icon"></span>
-        <span class="toggler-icon"></span>
-        <span class="toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="stellaNavbar">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-1">
-          <li class="nav-item"><a class="nav-link active" href="#" id="link-home">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about" id="link-about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#services" id="link-services">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#why-us" id="link-why-us">Why Us</a></li>
-          <li class="nav-item"><a class="nav-link" href="#testimonials" id="link-testimonials">Testimonials</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact" id="link-contact">Contact</a></li>
+      <nav class="nav" id="navMenu" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About Us</a></li>
+          <li><a href="#why-choose-us" class="nav-link">Why Choose Us</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <!-- <li><a href="#industries" class="nav-link">Industries</a></li>
+          <li><a href="#recruitment-expertise" class="nav-link">Recruitment Expertise</a></li>
+          <li><a href="#process" class="nav-link">Process</a></li>
+          <li><a href="#mission-vision" class="nav-link">Mission & Vision</a></li>
+          <li><a href="#testimonials" class="nav-link">Testimonials</a></li> -->
+          <li><a href="#contact" class="nav-link">Contact Us</a></li>
         </ul>
-        <div class="ms-lg-3 mt-3 mt-lg-0">
-          <a href="#contact" class="btn-gold py-2 px-4 fs-6" id="nav-cta-btn">Get Started</a>
-        </div>
-      </div>
-    </div>
-  </nav>
+        <!-- <a href="#contact" class="btn btn-nav-cta">Submit Your Hiring Requirement</a> -->
+      </nav>
 
-  <!-- ==================== HERO SECTION WITH FULL BACKGROUND ==================== -->
-  <header class="hero-section" id="home">
-    <!-- <div class="hero-sunset-glow"></div> -->
-    <div class="container py-5 mt-4">
-      <div class="row align-items-center justify-content-between g-5">
-
-        <!-- Left Side: Copy Panel (Kept left-aligned with subtle text background shadows for mobile readability) -->
-        <div class="col-lg-7 text-lg-start text-center animate-slide-up">
-          <h1 id="hero-headline">Guiding Careers.<br><span>Building Stronger Businesses.</span></h1>
-          <p class="hero-lead" id="hero-lead-text">
-            Stella Maris HR Consulting helps organizations and professionals find the right direction through expert HR
-            solutions and people-focused strategies.
-          </p>
-          <div class="d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start gap-3">
-            <a href="#contact" class="btn-gold" id="hero-book-btn">Book a Consultation</a>
-            <a href="#services" class="btn-hero-outline" id="hero-services-btn">Explore Services</a>
-          </div>
-        </div>
-
-        <!-- Right Side: Kept empty to showcase the beautiful background lighthouse image on desktop -->
-        <div class="col-lg-5"></div>
-
-      </div>
+      <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Mobile Navigation Menu"
+        aria-expanded="false" aria-controls="navMenu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
     </div>
   </header>
 
-  <!-- ==================== TRUSTED BY STRIP ==================== -->
-  <div class="trusted-strip" role="complementary" aria-label="Corporate Partners">
-    <div class="container">
-      <p class="strip-title">Trusted by Professionals Across Industries</p>
-      <div class="row justify-content-center align-items-center g-4 text-center">
-        <!-- 1. Nexa Tech -->
-        <div class="col-6 col-md-3 col-lg-2">
-          <div class="trusted-logo" id="partner-tech" title="Nexa Tech">
-            <!-- Modern Tech Interlocking Hexagon SVG -->
-            <svg fill="currentColor" width="22" height="22" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-            </svg>
-            Nexa Tech
-          </div>
-        </div>
-        <!-- 2. Aegis Capital -->
-        <div class="col-6 col-md-3 col-lg-2">
-          <div class="trusted-logo" id="partner-finance" title="Aegis Capital">
-            <!-- Modern Finance Pillar SVG -->
-            <svg fill="currentColor" width="22" height="22" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12 2L2 7v2h20V7L12 2zm-8 9v9h3v-9H4zm6 0v9h3v-9h-3zm6 0v9h3v-9h-3zM2 21h20v2H2v-2z" />
-            </svg>
-            Aegis Cap
-          </div>
-        </div>
-        <!-- 3. Solas Health -->
-        <div class="col-6 col-md-3 col-lg-2">
-          <div class="trusted-logo" id="partner-health" title="Solas Health">
-            <!-- Modern Leaf Helix SVG -->
-            <svg fill="currentColor" width="22" height="22" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5zm-5-3c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5zm3-5.5c0-.83.67-1.5 1.5-1.5S13 8.17 13 9s-.67 1.5-1.5 1.5S11 9.83 11 9zm4.5 1.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5z" />
-            </svg>
-            Solas Health
-          </div>
-        </div>
-        <!-- 4. Apex Global -->
-        <div class="col-6 col-md-3 col-lg-2">
-          <div class="trusted-logo" id="partner-global" title="Apex Global">
-            <!-- Globe with Axis lines SVG -->
-            <svg fill="currentColor" width="22" height="22" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.53c-.26-.81-1-1.4-1.9-1.4h-1v-3c0-.55-.45-1-1-1h-6v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.4z" />
-            </svg>
-            Apex Global
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <!-- ==========================================
+       MAIN CONTENT CONTAINER
+       ========================================== -->
+  <main id="main-content">
 
-  <!-- ==================== ABOUT SECTION ==================== -->
-  <section class="about-section" id="about">
-    <div class="container">
+    <!-- ==========================================
+         HERO SECTION
+         ========================================== -->
+    <section id="home" class="hero">
+      <div class="hero-glow-overlay"></div>
+      <div class="container">
 
-      <!-- Heading -->
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <div class="section-header">
-            <span class="subtitle">About Us</span>
-            <h2 class="title" id="about-title">Navigating Success Together</h2>
-            <div class="divider-star">
-              <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 2l2.4 7.4h7.6l-6.2 4.5 2.4 7.4-6.2-4.6-6.2 4.6 2.4-7.4-6.2-4.5h7.6z" />
-              </svg>
+        <!-- Hero Left Column -->
+        <div class="hero-left">
+          <!-- <div class="hero-logo-box">
+            <img src="logo-bg.png" alt="Stella Maris Icon">
+          </div> -->
+          <h1>Stella Maris HR Consulting</h1>
+          <div class="hero-tagline">Lighting the Way to Talent, Growth & Success</div>
+          <div class="hero-description">
+            <p>Empowering organizations with strategic HR solutions, talent acquisition excellence, compliance
+              expertise, and people-centric transformation.</p>
+            <p>We help businesses attract, develop, engage, and retain exceptional talent while ensuring compliance and
+              operational excellence.</p>
+          </div>
+          <div class="hero-ctas">
+            <a href="#contact" class="btn btn-primary">Schedule a Consultation</a>
+            <a href="#contact" class="btn btn-secondary">Contact Us</a>
+            <a href="#contact" class="btn btn-outline">Submit Your Hiring Requirement</a>
+          </div>
+
+          <!-- Hero Badges & Trust Indicators -->
+          <!-- <div class="hero-badges-bar">
+            <div class="hero-badge-item">
+              <i class="fa-solid fa-certificate"></i>
+              <span>Strategic Solutions</span>
+            </div>
+            <div class="hero-badge-item">
+              <i class="fa-solid fa-shield-circle-check"></i>
+              <span>Compliance Expert</span>
+            </div>
+            <div class="hero-badge-item">
+              <i class="fa-solid fa-award"></i>
+              <span>Talent Leadership</span>
+            </div>
+          </div> -->
+        </div>
+
+        <!-- Hero Right Column (Banner & Beam Overlay) -->
+        <!-- <div class="hero-right">
+          <div class="hero-image-wrapper">
+            <img src="stella_maris_hero.png" alt=" Stella Maris Navigation Path and Lighthouse Guidance" class="hero-img">
+            <div class="lighthouse-beam-container">
+              <div class="lighthouse-glow-source"></div>
+              <div class="lighthouse-light-beam"></div>
             </div>
           </div>
-        </div>
+        </div> -->
+
       </div>
 
-      <!-- Split Story Content -->
-      <div class="row align-items-center g-5 mb-5">
-        <div class="col-lg-6 animate-slide-up">
-          <div class="about-story">
-            <h3 id="story-heading">Guidance-Focused HR Consulting</h3>
-            <p class="story-emphasis">
-              Like a lighthouse standing firm against the tides, Stella Maris provides steady guidance, security, and
-              absolute clarity in a complex talent landscape.
-            </p>
-            <p>
-              In Latin, <em>Stella Maris</em> translates to "Star of the Sea" — a historical beacon used by travelers to
-              find safe passage. We carry that philosophy forward. Our consulting practice focuses on providing
-              organizations with custom strategies that build resilience, elevate leadership, and chart clear pathways
-              for growth.
-            </p>
-            <p>
-              Whether you are an enterprise seeking to optimize compliance and hiring, or a rising professional looking
-              to maximize leadership capability, we provide the strategic foresight you need.
-            </p>
-          </div>
+      <!-- Scroll Indicator -->
+      <!-- <div class="hero-scroll-indicator">
+        <span>Scroll Down</span>
+        <div class="scroll-mouse">
+          <div class="scroll-wheel"></div>
         </div>
+      </div> -->
+    </section>
 
-        <div class="col-lg-6 animate-fade-in delay-200">
-          <div class="row g-4">
-
-            <!-- feature card 1: Trust -->
-            <div class="col-sm-6">
-              <div class="feature-card" id="about-card-trust">
-                <div class="feature-icon">
-                  <!-- Trust SVG Icon -->
-                  <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z">
-                    </path>
-                  </svg>
-                </div>
-                <h4>Absolute Trust</h4>
-                <p>Establishing honest, transparent practices protecting company and employee integrity.</p>
-              </div>
+    <!-- ==========================================
+         STATISTICS & COMMITMENT SECTION (VISUAL CARDS)
+         ========================================== -->
+    <!-- <section class="stats-section">
+      <div class="container">
+        <div class="section-header" style="margin-bottom: 40px; text-align: center;">
+          <h2 style="color: var(--color-white); font-size: 2.2rem;">Our Commitment to Excellence</h2>
+        </div>
+        <div class="stats-grid">
+          
+          <div class="stat-card">
+            <div class="stat-card-icon">
+              <i class="fa-solid fa-chart-line"></i>
             </div>
-
-            <!-- feature card 2: Growth -->
-            <div class="col-sm-6">
-              <div class="feature-card" id="about-card-growth">
-                <div class="feature-icon">
-                  <!-- Growth SVG Icon -->
-                  <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
-                  </svg>
-                </div>
-                <h4>Organic Growth</h4>
-                <p>Creating strategies that enable scaling with sustainable, productive human potential.</p>
-              </div>
-            </div>
-
-            <!-- feature card 3: Leadership -->
-            <div class="col-sm-6">
-              <div class="feature-card" id="about-card-leadership">
-                <div class="feature-icon">
-                  <!-- Leadership SVG Icon -->
-                  <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M9.663 17h4.673M12 3v1m6.364 .364l-.707 .707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 113.536 0V21h2v-4.757">
-                    </path>
-                  </svg>
-                </div>
-                <h4>Bold Leadership</h4>
-                <p>Developing leaders that inspire innovation and navigate businesses through industry shifts.</p>
-              </div>
-            </div>
-
-            <!-- feature card 4: Strategic Hiring -->
-            <div class="col-sm-6">
-              <div class="feature-card" id="about-card-hiring">
-                <div class="feature-icon">
-                  <!-- Strategic Hiring SVG Icon -->
-                  <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z">
-                    </path>
-                  </svg>
-                </div>
-                <h4>Strategic Hiring</h4>
-                <p>Targeted hiring models placing key candidates who enrich company cultural fit.</p>
-              </div>
-            </div>
-
+            <h3>Strategic Hiring Solutions</h3>
           </div>
+
+          <div class="stat-card">
+            <div class="stat-card-icon">
+              <i class="fa-solid fa-gem"></i>
+            </div>
+            <h3>HR Advisory Excellence</h3>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-card-icon">
+              <i class="fa-solid fa-scale-balanced"></i>
+            </div>
+            <h3>Compliance Expertise</h3>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-card-icon">
+              <i class="fa-solid fa-people-group"></i>
+            </div>
+            <h3>People Transformation</h3>
+          </div>
+
         </div>
       </div>
+    </section> -->
 
-    </div>
+    <!-- ==========================================
+         ABOUT US SECTION
+         ========================================== -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="about-grid">
 
-    <!-- Wave Bottom Transitions -->
-    <div class="wave-divider wave-bottom">
-      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path
-          d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3v24.2H0V0C0,0,230.13,73.34,321.39,56.44Z"
-          fill="#FFFFFF"></path>
-      </svg>
-    </div>
-  </section>
-
-  <!-- ==================== SERVICES SECTION ==================== -->
-  <section class="services-section" id="services">
-    <div class="container">
-
-      <!-- Heading -->
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <div class="section-header">
-            <span class="subtitle">Our Services</span>
-            <h2 class="title" id="services-title">Expert HR Solutions Tailored for Growth</h2>
-            <div class="divider-star">
-              <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 2l2.4 7.4h7.6l-6.2 4.5 2.4 7.4-6.2-4.6-6.2 4.6 2.4-7.4-6.2-4.5h7.6z" />
-              </svg>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Services Responsive Grid (4 columns desktop, 2 tablet, 1 mobile) -->
-      <div class="row g-4 justify-content-center">
-
-        <!-- Service 1: Recruitment & Staffing -->
-        <div class="col-12 col-md-6 col-lg-3 service-item-wrapper animate-slide-up">
-          <div class="service-card" id="service-recruitment">
-            <div class="service-icon">
-              <!-- Recruitment Icon SVG -->
-              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7"></path>
-              </svg>
-            </div>
-            <h3>Recruitment & Staffing</h3>
-            <p>Sourcing and vetting highly qualified professionals who align with your goals and work environment.</p>
-          </div>
-        </div>
-
-        <!-- Service 2: HR Strategy Consulting -->
-        <div class="col-12 col-md-6 col-lg-3 service-item-wrapper animate-slide-up delay-100">
-          <div class="service-card" id="service-strategy">
-            <div class="service-icon">
-              <!-- Strategy Icon SVG -->
-              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z">
-                </path>
-              </svg>
-            </div>
-            <h3>HR Strategy Consulting</h3>
-            <p>Redefining corporate policies, restructuring organizational frameworks, and boosting employee alignment.
-            </p>
-          </div>
-        </div>
-
-        <!-- Service 3: Talent Acquisition -->
-        <div class="col-12 col-md-6 col-lg-3 service-item-wrapper animate-slide-up delay-200">
-          <div class="service-card" id="service-talent">
-            <div class="service-icon">
-              <!-- Talent Icon SVG -->
-              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z">
-                </path>
-              </svg>
-            </div>
-            <h3>Talent Acquisition</h3>
-            <p>Implementing optimized methods to identify, recruit, and secure top-tier executive talent.</p>
-          </div>
-        </div>
-
-        <!-- Service 4: Employee Training -->
-        <div class="col-12 col-md-6 col-lg-3 service-item-wrapper animate-slide-up delay-300">
-          <div class="service-card" id="service-training">
-            <div class="service-icon">
-              <!-- Training Icon SVG -->
-              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253">
-                </path>
-              </svg>
-            </div>
-            <h3>Employee Training</h3>
-            <p>Custom educational workshops that optimize team processes, modern tools, and performance standards.</p>
-          </div>
-        </div>
-
-        <!-- Service 5: Payroll & Compliance -->
-        <div class="col-12 col-md-6 col-lg-3 service-item-wrapper animate-slide-up">
-          <div class="service-card" id="service-payroll">
-            <div class="service-icon">
-              <!-- Compliance Icon SVG -->
-              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z">
-                </path>
-              </svg>
-            </div>
-            <h3>Payroll & Compliance</h3>
-            <p>Ensuring complete compliance while organizing payroll procedures.</p>
-          </div>
-        </div>
-
-        <!-- Service 6: Leadership Development -->
-        <div class="col-12 col-md-6 col-lg-3 service-item-wrapper animate-slide-up delay-100">
-          <div class="service-card" id="service-leadership">
-            <div class="service-icon">
-              <!-- Leadership Icon SVG -->
-              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-              </svg>
-            </div>
-            <h3>Leadership Development</h3>
-            <p>Mentoring high-potential candidates to build leadership resilience and positive workplace cultures.</p>
-          </div>
-        </div>
-
-        <!-- Service 7: Career Guidance -->
-        <div class="col-12 col-md-6 col-lg-3 service-item-wrapper animate-slide-up delay-200">
-          <div class="service-card" id="service-guidance">
-            <div class="service-icon">
-              <!-- Career Icon SVG -->
-              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 009 11.571V11a4 4 0 00-8 0v.571c0 1.925.354 3.768.992 5.461m13.008 3.571a9.003 9.003 0 001.5-5.571V11a9 9 0 00-9-9m9 9a9 9 0 00-9-9m0 12a3 3 0 110-6 3 3 0 010 6z">
-                </path>
-              </svg>
-            </div>
-            <h3>Career Guidance</h3>
-            <p>Providing working professionals with the maps, counseling, and interview paths to elevate careers.</p>
-          </div>
-        </div>
-
-        <!-- Service 8: Workforce Solutions -->
-        <div class="col-12 col-md-6 col-lg-3 service-item-wrapper animate-slide-up delay-300">
-          <div class="service-card" id="service-workforce">
-            <div class="service-icon">
-              <!-- Workforce Icon SVG -->
-              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z">
-                </path>
-              </svg>
-            </div>
-            <h3>Workforce Solutions</h3>
-            <p>Flexible staffing architectures matching temporary or contract workers with fluid project timelines.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Wave Bottom Transitions -->
-    <div class="wave-divider wave-bottom">
-      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path
-          d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3v24.2H0V0C0,0,230.13,73.34,321.39,56.44Z"
-          fill="#FAF9F6"></path>
-      </svg>
-    </div>
-  </section>
-
-  <!-- ==================== WHY CHOOSE US ==================== -->
-  <section class="why-us-section" id="why-us">
-
-    <div class="container">
-
-      <!-- Heading -->
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <div class="section-header">
-            <span class="subtitle">Why Choose Us</span>
-            <h2 class="title" id="why-title">Proven Guidance, Sustainable Growth</h2>
-            <div class="divider-star">
-              <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 2l2.4 7.4h7.6l-6.2 4.5 2.4 7.4-6.2-4.6-6.2 4.6 2.4-7.4-6.2-4.5h7.6z" />
-              </svg>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Statistical Counters (Triggered in JS) -->
-      <div class="row g-4 mb-5 text-center justify-content-center">
-        <div class="col-6 col-lg-3 animate-slide-up">
-          <div class="stat-card" id="stat-consulted">
-            <span class="counter-value" data-target="500" data-suffix="+">0</span>
-            <span class="counter-label">Clients Consulted</span>
-          </div>
-        </div>
-        <div class="col-6 col-lg-3 animate-slide-up delay-100">
-          <div class="stat-card" id="stat-placement">
-            <span class="counter-value" data-target="98" data-suffix="%">0</span>
-            <span class="counter-label">Placement Rate</span>
-          </div>
-        </div>
-        <div class="col-6 col-lg-3 animate-slide-up delay-200">
-          <div class="stat-card" id="stat-experience">
-            <span class="counter-value" data-target="15" data-suffix="+">0</span>
-            <span class="counter-label">Years of Guidance</span>
-          </div>
-        </div>
-        <div class="col-6 col-lg-3 animate-slide-up delay-300">
-          <div class="stat-card" id="stat-satisfaction">
-            <span class="counter-value" data-target="100" data-suffix="%">0</span>
-            <span class="counter-label">Satisfaction Score</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Process Timeline: Understand -> Strategize -> Guide -> Grow -->
-      <div class="row mt-5">
-        <div class="col-12 text-center mb-5 animate-slide-up">
-          <h3 class="fw-bold" style="font-family: 'Playfair Display', serif;" id="process-timeline-title">Our Strategic
-            Journey</h3>
-          <p class="text-muted" style="max-width: 500px; margin: 10px auto 0 auto;">Four simple milestones designed to
-            steer your corporation toward clear compliance and long-term hiring stability.</p>
-        </div>
-      </div>
-
-      <div class="timeline-container">
-        <div class="timeline-line"></div>
-        <div class="row g-4 g-md-0">
-
-          <!-- Step 1: Understand -->
-          <div class="col-12 col-md-3">
-            <div class="timeline-step animate-slide-up" id="step-understand">
-              <div class="step-number">
-                01
-                <div class="step-halo"></div>
-              </div>
-              <div class="step-content">
-                <h4>Understand</h4>
-                <p>We analyze your immediate resource bottlenecks, corporate goals, and operational cultures.</p>
-              </div>
-            </div>
+          <!-- Graphic representation of talent nodes and growth -->
+          <div class="about-left-graphic">
           </div>
 
-          <!-- Step 2: Strategize -->
-          <div class="col-12 col-md-3">
-            <div class="timeline-step animate-slide-up delay-100" id="step-strategize">
-              <div class="step-number">
-                02
-                <div class="step-halo"></div>
-              </div>
-              <div class="step-content">
-                <h4>Strategize</h4>
-                <p>Mapping regulatory adjustments, hiring avenues, and talent benchmarks.</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Step 3: Guide -->
-          <div class="col-12 col-md-3">
-            <div class="timeline-step animate-slide-up delay-200" id="step-guide">
-              <div class="step-number">
-                03
-                <div class="step-halo"></div>
-              </div>
-              <div class="step-content">
-                <h4>Guide</h4>
-                <p>Providing ongoing active implementation support, training, and onboarding leadership.</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Step 4: Grow -->
-          <div class="col-12 col-md-3">
-            <div class="timeline-step animate-slide-up delay-300" id="step-grow">
-              <div class="step-number">
-                04
-                <div class="step-halo"></div>
-              </div>
-              <div class="step-content">
-                <h4>Grow</h4>
-                <p>Analyzing key scaling variables to secure long-term human resource sustainability.</p>
-              </div>
+          <!-- Who We Are Content -->
+          <div class="about-right">
+            <h3>About Us</h3>
+            <div class="about-card">
+              <p><strong>Who We Are</strong></p>
+              <p>Stella Maris HR Consulting is a professional Human Resources consulting firm dedicated to helping
+                organizations build high-performing workforces through strategic HR solutions.</p>
+              <p>With extensive experience across Information Technology, Analytics, Banking, Financial Services,
+                Manufacturing, Healthcare, Retail, and Emerging Technologies, we partner with organizations to deliver
+                customized talent and HR solutions that drive business success.</p>
+              <p>Our approach combines industry expertise, technology-driven processes, and deep market insights to
+                provide sustainable HR solutions for organizations of all sizes.</p>
             </div>
           </div>
 
         </div>
       </div>
+    </section>
 
-    </div>
+    <!-- ==========================================
+         WHY CHOOSE US SECTION
+         ========================================== -->
+    <section id="why-choose-us" class="section section-bg">
+      <div class="container">
 
-    <!-- Wave Bottom Divider -->
-    <div class="wave-divider wave-bottom">
-      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path
-          d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3v24.2H0V0C0,0,230.13,73.34,321.39,56.44Z"
-          fill="#FFFFFF"></path>
-      </svg>
-    </div>
-  </section>
+        <div class="section-header">
+          <h2>Why Choose Stella Maris HR Consulting?</h2>
+          <p>Partnering with us means gaining a dedicated team of experts aligned to your growth.</p>
+        </div>
 
-  <!-- ==================== TESTIMONIALS SECTION ==================== -->
-  <section class="testimonials-section" id="testimonials">
-    <div class="container">
+        <div class="why-grid">
 
-      <!-- Heading -->
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <div class="section-header">
-            <span class="subtitle">Client Success</span>
-            <h2 class="title" id="testimonials-title">Testimonials from Guided Leaders</h2>
-            <div class="divider-star">
-              <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 2l2.4 7.4h7.6l-6.2 4.5 2.4 7.4-6.2-4.6-6.2 4.6 2.4-7.4-6.2-4.5h7.6z" />
-              </svg>
+          <div class="why-card">
+            <div class="why-card-title">
+              <div class="why-card-icon"><i class="fa-solid fa-user-group"></i></div>
+              <h3>Experienced HR Professionals</h3>
+            </div>
+            <div class="why-card-content">
+              <p>Highly qualified consultants offering strategic insights and modern human resources practices.</p>
             </div>
           </div>
-        </div>
-      </div>
 
-      <!-- Testimonials Slider (Bootstrap Carousel) -->
-      <div class="row">
-        <div class="col-lg-10 mx-auto animate-fade-in">
-
-          <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
-
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
+          <div class="why-card">
+            <div class="why-card-title">
+              <div class="why-card-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+              <h3>Specialized Talent Acquisition Expertise</h3>
             </div>
-
-            <div class="carousel-inner">
-
-              <!-- Slide 1 -->
-              <div class="carousel-item active">
-                <div class="testimonial-card glass-panel" id="testimonial-1">
-                  <!-- Large Quote Icon -->
-                  <svg class="quote-icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M14 17h3l2-4V7h-6v6h3M6 17h3l2-4V7H5v6h3z" />
-                  </svg>
-                  <p class="testimonial-text">
-                    "Stella Maris HR completely revolutionized our approach to staffing. Their 'Understand' phase
-                    identified gaps we didn't even realize we had, and the strategic hiring model brought in two
-                    incredible executives who completely fits our workplace culture. Absolute gold standard guidance."
-                  </p>
-                  <div class="client-info">
-                    <!-- Premium Gold-Gradient Initials Badge instead of duplicate image -->
-                    <div class="client-avatar-monogram"
-                      style="width: 65px; height: 65px; border-radius: 50%; background: linear-gradient(135deg, #C5A059 0%, #DFBE7F 100%); color: white; display: flex; align-items: center; justify-content: center; font-family: 'Playfair Display', serif; font-weight: 700; font-size: 1.35rem; border: 2px solid #C5A059; box-shadow: 0 6px 15px rgba(197, 160, 89, 0.2);">
-                      VT
-                    </div>
-                    <div class="client-details">
-                      <div class="client-name">Victoria Thorne</div>
-                      <div class="client-role">COO, Nexa Tech Global</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Slide 2 -->
-              <div class="carousel-item">
-                <div class="testimonial-card glass-panel" id="testimonial-2">
-                  <svg class="quote-icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M14 17h3l2-4V7h-6v6h3M6 17h3l2-4V7H5v6h3z" />
-                  </svg>
-                  <p class="testimonial-text">
-                    "As a rapidly expanding corporate team, maintaining legal compliance in payroll across state lines
-                    was a nightmare. The compliance team at Stella Maris streamlined our documentation and structured
-                    our training programs beautifully. Highly recommend their professional guidance."
-                  </p>
-                  <div class="client-info">
-                    <!-- Slate-Blue Initials Badge -->
-                    <div class="client-avatar-monogram"
-                      style="width: 65px; height: 65px; border-radius: 50%; background: linear-gradient(135deg, #0A2240 0%, #16365C 100%); color: white; display: flex; align-items: center; justify-content: center; font-family: 'Playfair Display', serif; font-weight: 700; font-size: 1.35rem; border: 2px solid #16365C; box-shadow: 0 6px 15px rgba(10, 34, 64, 0.15);">
-                      JC
-                    </div>
-                    <div class="client-details">
-                      <div class="client-name">Jonathan Carter</div>
-                      <div class="client-role">HR Director, Aegis Health</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Slide 3 -->
-              <div class="carousel-item">
-                <div class="testimonial-card glass-panel" id="testimonial-3">
-                  <svg class="quote-icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M14 17h3l2-4V7h-6v6h3M6 17h3l2-4V7H5v6h3z" />
-                  </svg>
-                  <p class="testimonial-text">
-                    "I engaged Stella Maris for individual career guidance during a major vocational transition. Their
-                    coaches provided structural strategies that built up my leadership confidence, resulting in a
-                    placement that exceeded all my expectations. They truly showed the right path."
-                  </p>
-                  <div class="client-info">
-                    <!-- Sunset Terracotta Initials Badge -->
-                    <div class="client-avatar-monogram"
-                      style="width: 65px; height: 65px; border-radius: 50%; background: linear-gradient(135deg, #FF7E5F 0%, #FEB47B 100%); color: white; display: flex; align-items: center; justify-content: center; font-family: 'Playfair Display', serif; font-weight: 700; font-size: 1.35rem; border: 2px solid #FF7E5F; box-shadow: 0 6px 15px rgba(255, 126, 95, 0.25);">
-                      ER
-                    </div>
-                    <div class="client-details">
-                      <div class="client-name">Elena Rostova</div>
-                      <div class="client-role">VP of Finance, Finance Corp</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div class="why-card-content">
+              <p>Deep expertise in recruiting leaders and technical specialists across complex domains.</p>
             </div>
+          </div>
 
+          <div class="why-card">
+            <div class="why-card-title">
+              <div class="why-card-icon"><i class="fa-solid fa-arrows-spin"></i></div>
+              <h3>End-to-End HR Solutions</h3>
+            </div>
+            <div class="why-card-content">
+              <p>A comprehensive spectrum of services covering lifecycle recruitment, advisory, and policy design.</p>
+            </div>
+          </div>
+
+          <div class="why-card">
+            <div class="why-card-title">
+              <div class="why-card-icon"><i class="fa-solid fa-gavel"></i></div>
+              <h3>Compliance-Focused Approach</h3>
+            </div>
+            <div class="why-card-content">
+              <p>Reducing legal liabilities by ensuring strict adherence to latest labour laws and code guidelines.</p>
+            </div>
+          </div>
+
+          <div class="why-card">
+            <div class="why-card-title">
+              <div class="why-card-icon"><i class="fa-solid fa-city"></i></div>
+              <h3>Industry-Specific Recruitment Solutions</h3>
+            </div>
+            <div class="why-card-content">
+              <p>Custom-fit sourcing models calibrated directly to the operational demands of your sector.</p>
+            </div>
+          </div>
+
+          <div class="why-card">
+            <div class="why-card-title">
+              <div class="why-card-icon"><i class="fa-solid fa-bolt"></i></div>
+              <h3>Fast Turnaround Time</h3>
+            </div>
+            <div class="why-card-content">
+              <p>Accelerating sourcing speed while preserving rigorous standards for candidate evaluation.</p>
+            </div>
+          </div>
+
+          <div class="why-card">
+            <div class="why-card-title">
+              <div class="why-card-icon"><i class="fa-solid fa-compass"></i></div>
+              <h3>Customized HR Strategies</h3>
+            </div>
+            <div class="why-card-content">
+              <p>We reject cookie-cutter models; every solution is tailored to fit your corporate culture.</p>
+            </div>
+          </div>
+
+          <div class="why-card">
+            <div class="why-card-title">
+              <div class="why-card-icon"><i class="fa-solid fa-network-wired"></i></div>
+              <h3>Strong Candidate Network</h3>
+            </div>
+            <div class="why-card-content">
+              <p>Immediate access to passive executive talent pools and verified technology profiles.</p>
+            </div>
+          </div>
+
+          <div class="why-card">
+            <div class="why-card-title">
+              <div class="why-card-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+              <h3>Ethical & Transparent Practices</h3>
+            </div>
+            <div class="why-card-content">
+              <p>Honest candidate representation and transparent billing agreements build long-term trust.</p>
+            </div>
+          </div>
+
+          <div class="why-card">
+            <div class="why-card-title">
+              <div class="why-card-icon"><i class="fa-solid fa-award"></i></div>
+              <h3>Client-Centric Service Delivery</h3>
+            </div>
+            <div class="why-card-content">
+              <p>Delivering measurable quality in every partnership and prioritizing long-term client success.</p>
+            </div>
           </div>
 
         </div>
+
       </div>
+    </section>
 
-    </div>
-  </section>
+    <!-- ==========================================
+         SERVICES SECTION (DESKTOP MODAL + MOBILE ACCORDION)
+         ========================================== -->
+    <section id="services" class="section">
+      <div class="container">
 
-  <!-- ==================== CALL TO ACTION ==================== -->
-  <section class="cta-section" id="cta">
-    <div class="cta-glow"></div>
-    <div class="container text-center">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 animate-slide-up">
-          <h2 id="cta-heading">Let Us Help You Find the Right Path</h2>
-          <p class="cta-desc" id="cta-desc-text">
-            Schedule a strategic consultation session with a Stella Maris senior consultant today and guide your
-            organization toward sustainable talent alignment and operational efficiency.
-          </p>
-          <a href="#contact" class="btn-gold" id="cta-action-btn">Book a Consultation</a>
+        <div class="section-header">
+          <h2>Our Services</h2>
+          <p>We provide a comprehensive range of HR solutions designed to scale your operations, build leadership
+            capabilities, and maintain statutory compliance.</p>
         </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- ==================== CONTACT SECTION ==================== -->
-  <section class="contact-section" id="contact">
-    <div class="container">
+        <!-- Desktop Grid (Click to open detailed side drawer) -->
+        <div class="services-grid">
 
-      <!-- Heading -->
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <div class="section-header">
-            <span class="subtitle">Get In Touch</span>
-            <h2 class="title" id="contact-title">Begin Your Guided Journey</h2>
-            <div class="divider-star">
-              <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 2l2.4 7.4h7.6l-6.2 4.5 2.4 7.4-6.2-4.6-6.2 4.6 2.4-7.4-6.2-4.5h7.6z" />
-              </svg>
+          <div class="service-card" data-service="talent-acquisition">
+            <div class="service-card-top">
+              <div class="service-icon-box"><i class="fa-solid fa-user-tie"></i></div>
+              <h3>Talent Acquisition & Executive Search</h3>
+              <p>Helping organizations identify and hire top talent.</p>
+            </div>
+            <div class="service-card-more">
+              <span>View Details</span> <i class="fa-solid fa-arrow-right"></i>
             </div>
           </div>
+
+          <div class="service-card" data-service="hr-advisory">
+            <div class="service-card-top">
+              <div class="service-icon-box"><i class="fa-solid fa-award"></i></div>
+              <h3>HR Advisory Services</h3>
+              <p>Strategic HR solutions aligned to business objectives.</p>
+            </div>
+            <div class="service-card-more">
+              <span>View Details</span> <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+
+          <div class="service-card" data-service="compliance">
+            <div class="service-card-top">
+              <div class="service-icon-box"><i class="fa-solid fa-shield-halved"></i></div>
+              <h3>Compliance & Labour Law Advisory</h3>
+              <p>Helping businesses remain compliant and risk-free.</p>
+            </div>
+            <div class="service-card-more">
+              <span>View Details</span> <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+
+          <div class="service-card" data-service="transformation">
+            <div class="service-card-top">
+              <div class="service-icon-box"><i class="fa-solid fa-laptop-code"></i></div>
+              <h3>HR Transformation & Digitalization</h3>
+              <p>Modernizing HR through technology and process optimization.</p>
+            </div>
+            <div class="service-card-more">
+              <span>View Details</span> <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+
+          <div class="service-card" data-service="learning">
+            <div class="service-card-top">
+              <div class="service-icon-box"><i class="fa-solid fa-chalkboard-user"></i></div>
+              <h3>Learning & Development</h3>
+              <p>Building future-ready organizations.</p>
+            </div>
+            <div class="service-card-more">
+              <span>View Details</span> <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+
         </div>
+
+        <!-- Mobile Accordion Container (Hidden on Desktop) -->
+        <div class="services-accordion-container">
+
+          <!-- Accordion Item 1 -->
+          <div class="services-acc-item">
+            <div class="services-acc-header">
+              <div class="services-acc-title-box">
+                <i class="fa-solid fa-user-tie services-acc-icon"></i>
+                <h3>Talent Acquisition & Executive Search</h3>
+              </div>
+              <i class="fa-solid fa-chevron-down services-acc-toggle-icon"></i>
+            </div>
+            <div class="services-acc-content">
+              <div class="services-acc-content-inner">
+                <p>Helping organizations identify and hire top talent.</p>
+                <ul class="services-acc-list">
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Permanent Staffing</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Executive Search</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Leadership Hiring</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Mid & Senior-Level
+                    Recruitment</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Campus Recruitment</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Contract Staffing</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Bulk Hiring Projects</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Recruitment Process
+                    Outsourcing (RPO)</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Talent Mapping</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Employer Branding</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Accordion Item 2 -->
+          <div class="services-acc-item">
+            <div class="services-acc-header">
+              <div class="services-acc-title-box">
+                <i class="fa-solid fa-award services-acc-icon"></i>
+                <h3>HR Advisory Services</h3>
+              </div>
+              <i class="fa-solid fa-chevron-down services-acc-toggle-icon"></i>
+            </div>
+            <div class="services-acc-content">
+              <div class="services-acc-content-inner">
+                <p>Strategic HR solutions aligned to business objectives.</p>
+                <ul class="services-acc-list">
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> HR Policy Development</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Employee Handbook Creation
+                  </li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Organization Structure
+                    Design</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> HR Process Design</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Performance Management
+                    Systems</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Succession Planning</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Competency Framework
+                    Development</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Workforce Planning</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> HR Audits</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Employee Engagement
+                    Strategies</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Accordion Item 3 -->
+          <div class="services-acc-item">
+            <div class="services-acc-header">
+              <div class="services-acc-title-box">
+                <i class="fa-solid fa-shield-halved services-acc-icon"></i>
+                <h3>Compliance & Labour Law Advisory</h3>
+              </div>
+              <i class="fa-solid fa-chevron-down services-acc-toggle-icon"></i>
+            </div>
+            <div class="services-acc-content">
+              <div class="services-acc-content-inner">
+                <p>Helping businesses remain compliant and risk-free.</p>
+                <ul class="services-acc-list">
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Labour Law Compliance
+                    Reviews</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Statutory Compliance
+                    Audits</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Shops & Establishments
+                    Compliance</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Employment Documentation
+                  </li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Standing Orders</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Wage Code Advisory</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> POSH Compliance</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Contract Labour Compliance
+                  </li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Payroll Compliance</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> HR Documentation</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Accordion Item 4 -->
+          <div class="services-acc-item">
+            <div class="services-acc-header">
+              <div class="services-acc-title-box">
+                <i class="fa-solid fa-laptop-code services-acc-icon"></i>
+                <h3>HR Transformation & Digitalization</h3>
+              </div>
+              <i class="fa-solid fa-chevron-down services-acc-toggle-icon"></i>
+            </div>
+            <div class="services-acc-content">
+              <div class="services-acc-content-inner">
+                <p>Modernizing HR through technology and process optimization.</p>
+                <ul class="services-acc-list">
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> HRMS Implementation
+                    Support</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> HR Process Automation</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Employee Lifecycle
+                    Digitization</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Analytics & HR Dashboards
+                  </li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Workforce Analytics</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> HR Shared Services Setup
+                  </li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Change Management Programs
+                  </li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Digital HR Strategy</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Accordion Item 5 -->
+          <div class="services-acc-item">
+            <div class="services-acc-header">
+              <div class="services-acc-title-box">
+                <i class="fa-solid fa-chalkboard-user services-acc-icon"></i>
+                <h3>Learning & Development</h3>
+              </div>
+              <i class="fa-solid fa-chevron-down services-acc-toggle-icon"></i>
+            </div>
+            <div class="services-acc-content">
+              <div class="services-acc-content-inner">
+                <p>Building future-ready organizations.</p>
+                <ul class="services-acc-list">
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Leadership Development
+                  </li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Managerial Effectiveness
+                  </li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> HR Capability Building
+                  </li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Interviewing Skills</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Employee Engagement
+                    Workshops</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Communication Skills</li>
+                  <li class="services-acc-list-item"><i class="fa-solid fa-circle-check"></i> Team Building Programs
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
       </div>
 
-      <div class="row g-5 align-items-stretch">
-
-        <!-- Contact Info column -->
-        <div class="col-lg-5 animate-slide-up">
-          <div class="contact-info-card">
-            <h3 id="info-heading">Stella Maris HR Headquarters</h3>
-
-            <ul class="info-list">
-              <!-- Phone -->
-              <li class="info-item">
-                <div class="info-icon">
-                  <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
-                    </path>
-                  </svg>
-                </div>
-                <div class="info-text">
-                  <h5>Phone Support</h5>
-                  <p><a href="tel:+18005557284" id="contact-phone">+1 (800) 555-PATH</a></p>
-                </div>
-              </li>
-
-              <!-- Email -->
-              <li class="info-item">
-                <div class="info-icon">
-                  <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
-                    </path>
-                  </svg>
-                </div>
-                <div class="info-text">
-                  <h5>Email Inquiries</h5>
-                  <p><a href="mailto:guidance@stellamarishr.com" id="contact-email">guidance@stellamarishr.com</a></p>
-                </div>
-              </li>
-
-              <!-- Office -->
-              <li class="info-item">
-                <div class="info-icon">
-                  <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                  </svg>
-                </div>
-                <div class="info-text">
-                  <h5>Office Address</h5>
-                  <p id="contact-address">400 Beacon Light Boulevard, Suite 500<br>Boston, MA 02108</p>
-                </div>
-              </li>
+      <!-- DESKTOP DRAWER SLIDEOUT WRAPPER -->
+      <div class="service-drawer-overlay" id="serviceDrawerOverlay" role="dialog" aria-modal="true">
+        <div class="service-drawer" id="serviceDrawer">
+          <div class="service-drawer-header">
+            <div class="service-drawer-title">
+              <div class="drawer-service-icon-container">
+                <i class="fa-solid fa-circle-info"></i>
+              </div>
+              <h2>Service Title</h2>
+            </div>
+            <button class="service-drawer-close" id="serviceDrawerClose" aria-label="Close details panel">
+              <i class="fa-solid fa-times"></i>
+            </button>
+          </div>
+          <div class="service-drawer-body">
+            <p class="service-drawer-description">Detailed description placeholder.</p>
+            <h3 class="service-drawer-subtitle">What we provide</h3>
+            <ul class="service-drawer-list">
+              <!-- Dynamically populated -->
             </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-            <span class="social-label">Follow our guidance</span>
-            <div class="social-links">
-              <a href="#" class="social-btn" aria-label="LinkedIn" id="social-linkedin">
-                <svg fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-                </svg>
-              </a>
+    <!-- ==========================================
+         EXPERTISE AREAS SECTION
+         ========================================= -->
+    <section class="section section-bg">
+      <div class="container">
 
-              <a href="#" class="social-btn" aria-label="X" id="social-x">
-                <svg fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M18.244 2H21.5l-7.11 8.122L22 22h-6.406l-5.016-6.58L4.825 22H1.568l7.604-8.69L2 2h6.562l4.534 5.996L18.244 2Zm-1.123 18h1.804L7.582 3.895H5.646L17.121 20Z" />
-                </svg>
-              </a>
+        <div class="section-header">
+          <h2>Expertise Areas</h2>
+          <p>Our professional advisory services extend across critical functional areas to ensure operational success.
+          </p>
+        </div>
+
+        <div class="expertise-grid">
+
+          <div class="expertise-card">
+            <div class="expertise-icon"><i class="fa-solid fa-code"></i></div>
+            <h3>Software Development</h3>
+          </div>
+
+          <div class="expertise-card">
+            <div class="expertise-icon"><i class="fa-solid fa-chart-pie"></i></div>
+            <h3>Data Science & Analytics</h3>
+          </div>
+
+          <div class="expertise-card">
+            <div class="expertise-icon"><i class="fa-solid fa-brain"></i></div>
+            <h3>Artificial Intelligence</h3>
+          </div>
+
+          <div class="expertise-card">
+            <div class="expertise-icon"><i class="fa-solid fa-gears"></i></div>
+            <h3>Machine Learning</h3>
+          </div>
+
+          <div class="expertise-card">
+            <div class="expertise-icon"><i class="fa-solid fa-cloud"></i></div>
+            <h3>Cloud Technologies</h3>
+          </div>
+
+          <div class="expertise-card">
+            <div class="expertise-icon"><i class="fa-solid fa-user-shield"></i></div>
+            <h3>Cybersecurity</h3>
+          </div>
+
+          <div class="expertise-card">
+            <div class="expertise-icon"><i class="fa-solid fa-landmark"></i></div>
+            <h3>Banking & Financial Services</h3>
+          </div>
+
+          <div class="expertise-card">
+            <div class="expertise-icon"><i class="fa-solid fa-network-wired"></i></div>
+            <h3>Operations & Shared Services</h3>
+          </div>
+
+          <div class="expertise-card">
+            <div class="expertise-icon"><i class="fa-solid fa-people-arrows"></i></div>
+            <h3>Human Resources</h3>
+          </div>
+
+          <div class="expertise-card">
+            <div class="expertise-icon"><i class="fa-solid fa-bullhorn"></i></div>
+            <h3>Sales & Marketing</h3>
+          </div>
+
+          <div class="expertise-card">
+            <div class="expertise-icon"><i class="fa-solid fa-calculator"></i></div>
+            <h3>Finance & Accounting</h3>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         INDUSTRIES WE SERVE SECTION
+         ========================================== -->
+    <section id="industries" class="section">
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Industries We Serve</h2>
+          <p>Delivering high-performance HR consulting and structured search across specialized commercial sectors.</p>
+        </div>
+
+        <div class="industry-slider-outer">
+          <div class="industry-grid">
+
+            <div class="industry-card">
+              <div class="industry-icon"><i class="fa-solid fa-laptop"></i></div>
+              <h3>Information Technology</h3>
             </div>
+
+            <div class="industry-card">
+              <div class="industry-icon"><i class="fa-solid fa-piggy-bank"></i></div>
+              <h3>Banking & Financial Services</h3>
+            </div>
+
+            <div class="industry-card">
+              <div class="industry-icon"><i class="fa-solid fa-chart-simple"></i></div>
+              <h3>Analytics & Data Science</h3>
+            </div>
+
+            <div class="industry-card">
+              <div class="industry-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+              <h3>Healthcare</h3>
+            </div>
+
+            <div class="industry-card">
+              <div class="industry-icon"><i class="fa-solid fa-industry"></i></div>
+              <h3>Manufacturing</h3>
+            </div>
+
+            <div class="industry-card">
+              <div class="industry-icon"><i class="fa-solid fa-store"></i></div>
+              <h3>Retail</h3>
+            </div>
+
+            <div class="industry-card">
+              <div class="industry-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+              <h3>E-Commerce</h3>
+            </div>
+
+            <div class="industry-card">
+              <div class="industry-icon"><i class="fa-solid fa-truck-ramp-box"></i></div>
+              <h3>Logistics & Supply Chain</h3>
+            </div>
+
+            <div class="industry-card">
+              <div class="industry-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+              <h3>Education</h3>
+            </div>
+
+            <div class="industry-card">
+              <div class="industry-icon"><i class="fa-solid fa-handshake-simple"></i></div>
+              <h3>Professional Services</h3>
+            </div>
+
           </div>
         </div>
 
-        <!-- Form column -->
-        <div class="col-lg-7 animate-slide-up delay-100">
-          <div class="contact-form-wrapper">
-            <h3 id="form-heading">Send a Strategic Inquiry</h3>
-            <form id="contactForm" class="needs-validation" novalidate>
+      </div>
+    </section>
 
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-floating">
-                    <input type="text" class="form-control" id="form-name" placeholder="Name" required>
-                    <label for="form-name">Your Name</label>
-                    <div class="invalid-feedback">Please enter your name.</div>
-                  </div>
+    <!-- ==========================================
+         RECRUITMENT EXPERTISE (CATEGORIZED TECH CHIPS & SEARCH FILTER)
+         ========================================== -->
+    <section id="recruitment-expertise" class="section recruitment-section">
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Our Recruitment Expertise</h2>
+          <p>Search and discover technical capabilities we actively source for leading brands.</p>
+        </div>
+
+        <!-- Premium Search Box -->
+        <div class="recruitment-search-box">
+          <input type="text" id="recruitmentSearch" class="recruitment-search-input"
+            placeholder="Type to filter technologies (e.g. Java, Cloud)...">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <!-- Categorized Grid of Tech Chips -->
+        <div class="recruitment-categories-grid">
+
+          <!-- Programming -->
+          <div class="recruitment-cat-card" data-category="programming">
+            <h3>Programming</h3>
+            <div class="recruitment-chips-container">
+              <span class="tech-chip">Java</span>
+              <span class="tech-chip">.NET</span>
+              <span class="tech-chip">Python</span>
+              <span class="tech-chip">C++</span>
+            </div>
+          </div>
+
+          <!-- Data & AI -->
+          <div class="recruitment-cat-card" data-category="data-ai">
+            <h3>Data & AI</h3>
+            <div class="recruitment-chips-container">
+              <span class="tech-chip">Data Science</span>
+              <span class="tech-chip">Machine Learning</span>
+              <span class="tech-chip">Artificial Intelligence</span>
+            </div>
+          </div>
+
+          <!-- Cloud & Infrastructure -->
+          <div class="recruitment-cat-card" data-category="cloud-infra">
+            <h3>Cloud & Infrastructure</h3>
+            <div class="recruitment-chips-container">
+              <span class="tech-chip">Cloud Computing</span>
+              <span class="tech-chip">Cyber Security</span>
+              <span class="tech-chip">DevOps</span>
+            </div>
+          </div>
+
+          <!-- Enterprise -->
+          <div class="recruitment-cat-card" data-category="enterprise">
+            <h3>Enterprise</h3>
+            <div class="recruitment-chips-container">
+              <span class="tech-chip">SAP</span>
+              <span class="tech-chip">Oracle</span>
+              <span class="tech-chip">Hyperion</span>
+              <span class="tech-chip">SharePoint</span>
+            </div>
+          </div>
+
+          <!-- Analytics -->
+          <div class="recruitment-cat-card" data-category="analytics">
+            <h3>Analytics</h3>
+            <div class="recruitment-chips-container">
+              <span class="tech-chip">ETL (Ab Initio, Informatica)</span>
+              <span class="tech-chip">Business Intelligence</span>
+              <span class="tech-chip">Data Engineering</span>
+              <span class="tech-chip">Database Administration</span>
+            </div>
+          </div>
+
+          <!-- Quality -->
+          <div class="recruitment-cat-card" data-category="quality">
+            <h3>Quality</h3>
+            <div class="recruitment-chips-container">
+              <span class="tech-chip">Testing & QA</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         OUR PROCESS SECTION (TIMELINE)
+         ========================================== -->
+    <section id="process" class="section">
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Our Process</h2>
+          <p>A structured, end-to-end framework ensuring delivery quality, strategic alignment, and ongoing support.</p>
+        </div>
+
+        <!-- Desktop Horizontal Timeline -->
+        <div class="process-timeline-desktop">
+
+          <div class="process-step-node">
+            <div class="process-step-num-box">
+              <span>01</span>
+              <i class="fa-solid fa-compass"></i>
+            </div>
+            <div class="process-step-info">
+              <h3>Understand</h3>
+              <p>Understanding client requirements and business objectives.</p>
+            </div>
+          </div>
+
+          <div class="process-step-node">
+            <div class="process-step-num-box">
+              <span>02</span>
+              <i class="fa-solid fa-chess"></i>
+            </div>
+            <div class="process-step-info">
+              <h3>Strategize</h3>
+              <p>Developing a customized hiring or HR solution.</p>
+            </div>
+          </div>
+
+          <div class="process-step-node">
+            <div class="process-step-num-box">
+              <span>03</span>
+              <i class="fa-solid fa-cogs"></i>
+            </div>
+            <div class="process-step-info">
+              <h3>Execute</h3>
+              <p>Deploying expert consultants and proven methodologies.</p>
+            </div>
+          </div>
+
+          <div class="process-step-node">
+            <div class="process-step-num-box">
+              <span>04</span>
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <div class="process-step-info">
+              <h3>Deliver</h3>
+              <p>Providing measurable outcomes and business value.</p>
+            </div>
+          </div>
+
+          <div class="process-step-node">
+            <div class="process-step-num-box">
+              <span>05</span>
+              <i class="fa-solid fa-handshake"></i>
+            </div>
+            <div class="process-step-info">
+              <h3>Support</h3>
+              <p>Continuous engagement and post-implementation support.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Mobile Vertical Timeline -->
+        <div style="display: flex; justify-content: center;">
+          <div class="process-timeline-mobile">
+
+            <div class="process-step-mobile-node">
+              <div class="process-mobile-circle">
+                <span>01</span>
+                <i class="fa-solid fa-compass"></i>
+              </div>
+              <div class="process-mobile-info">
+                <h3>Understand</h3>
+                <p>Understanding client requirements and business objectives.</p>
+              </div>
+            </div>
+
+            <div class="process-step-mobile-node">
+              <div class="process-mobile-circle">
+                <span>02</span>
+                <i class="fa-solid fa-chess"></i>
+              </div>
+              <div class="process-mobile-info">
+                <h3>Strategize</h3>
+                <p>Developing a customized hiring or HR solution.</p>
+              </div>
+            </div>
+
+            <div class="process-step-mobile-node">
+              <div class="process-mobile-circle">
+                <span>03</span>
+                <i class="fa-solid fa-cogs"></i>
+              </div>
+              <div class="process-mobile-info">
+                <h3>Execute</h3>
+                <p>Deploying expert consultants and proven methodologies.</p>
+              </div>
+            </div>
+
+            <div class="process-step-mobile-node">
+              <div class="process-mobile-circle">
+                <span>04</span>
+                <i class="fa-solid fa-handshake"></i>
+              </div>
+              <div class="process-mobile-info">
+                <h3>Deliver</h3>
+                <p>Providing measurable outcomes and business value.</p>
+              </div>
+            </div>
+
+            <div class="process-step-mobile-node">
+              <div class="process-mobile-circle">
+                <span>05</span>
+                <i class="fa-solid fa-compass"></i>
+              </div>
+              <div class="process-mobile-info">
+                <h3>Support</h3>
+                <p>Continuous engagement and post-implementation support.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         MISSION, VISION & CORE VALUES
+         ========================================== -->
+    <section id="mission-vision" class="section section-bg">
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Mission, Vision & Core Values</h2>
+          <p>Our foundation is built upon values that focus on sustainable organizational impact and business ethics.
+          </p>
+        </div>
+
+        <!-- Mission & Vision Cards -->
+        <div class="mv-grid">
+
+          <div class="mv-card">
+            <div class="mv-icon"><i class="fa-solid fa-bullseye"></i></div>
+            <div class="mv-info">
+              <h3>Mission</h3>
+              <p>To provide innovative, ethical, and business-focused HR solutions that enable organizations to achieve
+                sustainable growth through people excellence.</p>
+            </div>
+          </div>
+
+          <div class="mv-card">
+            <div class="mv-icon"><i class="fa-solid fa-eye"></i></div>
+            <div class="mv-info">
+              <h3>Vision</h3>
+              <p>To become a trusted HR consulting partner recognized for delivering exceptional talent and
+                transformative HR solutions across industries.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Core Values title and grid -->
+        <div class="values-title-header">
+          <h3>Core Values</h3>
+        </div>
+
+        <div class="values-grid">
+
+          <div class="value-card">
+            <div class="value-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+            <h4>Integrity</h4>
+            <p>Conducting business with honesty and transparency.</p>
+          </div>
+
+          <div class="value-card">
+            <div class="value-icon"><i class="fa-solid fa-star"></i></div>
+            <h4>Excellence</h4>
+            <p>Delivering quality in every engagement.</p>
+          </div>
+
+          <div class="value-card">
+            <div class="value-icon"><i class="fa-solid fa-handshake"></i></div>
+            <h4>Partnership</h4>
+            <p>Building long-term relationships with clients and candidates.</p>
+          </div>
+
+          <div class="value-card">
+            <div class="value-icon"><i class="fa-solid fa-lightbulb"></i></div>
+            <h4>Innovation</h4>
+            <p>Embracing new ideas and technologies.</p>
+          </div>
+
+          <div class="value-card">
+            <div class="value-icon"><i class="fa-solid fa-heart"></i></div>
+            <h4>Commitment</h4>
+            <p>Dedicated to client success.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         TESTIMONIALS SECTION
+         ========================================== -->
+    <section id="testimonials" class="section">
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Testimonials</h2>
+          <p>What our corporate partners say about our consulting and recruitment services.</p>
+        </div>
+
+        <div class="testimonial-carousel-container">
+          <div class="testimonial-track" id="testimonialTrack">
+
+            <!-- Slide 1 -->
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
                 </div>
-                <div class="col-md-6">
-                  <div class="form-floating">
-                    <input type="email" class="form-control" id="form-email" placeholder="Email" required>
-                    <label for="form-email">Your Email Address</label>
-                    <div class="invalid-feedback">Please enter a valid email address.</div>
-                  </div>
+                <p class="testimonial-text">"Stella Maris HR Consulting consistently delivered quality talent within
+                  challenging timelines and demonstrated exceptional professionalism throughout the engagement. Their
+                  deep understanding of technology hiring and HR processes made them a valuable strategic partner."</p>
+                <div class="testimonial-author-box">
+                  <span class="testimonial-author-name">Managing Director</span>
+                  <span class="testimonial-author-role">Leading Technology Solutions</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <!-- <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="testimonial-text">"Their deep understanding of technology hiring and HR processes made them a valuable strategic partner."</p>
+                <div class="testimonial-author-box">
+                  <span class="testimonial-author-name">VP - Human Resources</span>
+                  <span class="testimonial-author-role">Global Financial Services Enterprise</span>
+                </div>
+              </div>
+            </div> -->
+
+          </div>
+
+          <!-- Controls dots -->
+          <div class="testimonial-controls">
+            <button class="testimonial-dot active" aria-label="Go to slide 1"></button>
+            <!-- <button class="testimonial-dot" aria-label="Go to slide 2"></button> -->
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         CONTACT SECTION
+         ========================================== -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Contact Us</h2>
+          <p>Let's Discuss Your HR Needs. Whether you're looking to hire exceptional talent, strengthen HR processes,
+            improve compliance, or transform your people practices, we're here to help.</p>
+        </div>
+
+        <div class="contact-grid">
+
+          <!-- Contact Left Column (Information details) -->
+          <div class="contact-left">
+            <h3>Stella Maris HR Consulting</h3>
+            <p class="contact-left-tagline">Lighting the Way to Talent, Growth & Success</p>
+
+            <div class="contact-info-list">
+
+              <div class="contact-info-item">
+                <div class="contact-info-icon"><i class="fa-solid fa-map-marker-alt"></i></div>
+                <div class="contact-info-details">
+                  <h4>Address</h4>
+                  <p>Chennai, India</p>
                 </div>
               </div>
 
-              <div class="form-floating">
-                <input type="text" class="form-control" id="form-company" placeholder="Company">
-                <label for="form-company">Company (Optional)</label>
+              <div class="contact-info-item">
+                <div class="contact-info-icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="contact-info-details">
+                  <h4>Mobile Number</h4>
+                  <p><a href="tel:+91XXXXXXXXXX">+91 XXXXXXXXXX</a></p>
+                </div>
               </div>
 
-              <div class="form-floating">
-                <input type="text" class="form-control" id="form-subject" placeholder="Subject" required>
-                <label for="form-subject">Subject</label>
-                <div class="invalid-feedback">Please specify your inquiry subject.</div>
+              <div class="contact-info-item">
+                <div class="contact-info-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="contact-info-details">
+                  <h4>Email</h4>
+                  <p><a href="mailto:info@stellamarishr.com">info@stellamarishr.com</a></p>
+                </div>
               </div>
 
-              <div class="form-floating">
-                <textarea class="form-control" id="form-message" placeholder="Message" required></textarea>
-                <label for="form-message">How can Stella Maris guide you?</label>
-                <div class="invalid-feedback">Please enter your message.</div>
+              <div class="contact-info-item">
+                <div class="contact-info-icon"><i class="fa-solid fa-globe"></i></div>
+                <div class="contact-info-details">
+                  <h4>Website</h4>
+                  <p><a href="https://www.stellamarishr.com" target="_blank" rel="noopener">www.stellamarishr.com</a>
+                  </p>
+                </div>
               </div>
 
-              <button type="submit" class="btn-gold w-100 py-3" id="form-submit-btn">Send Message</button>
+            </div>
+          </div>
+
+          <!-- Contact Right Column (Glassmorphic Form) -->
+          <div class="contact-form-container">
+            <h3>Let's Discuss Your HR Needs</h3>
+            <p class="form-desc">Whether you're looking to hire exceptional talent, strengthen HR processes, improve
+              compliance, or transform your people practices, we're here to help.</p>
+
+            <form class="contact-form" id="contactForm">
+
+              <div class="form-group-row">
+                <div class="form-group">
+                  <input type="text" id="formName" class="form-input" placeholder=" " required>
+                  <label for="formName" class="form-label">Name</label>
+                </div>
+
+                <div class="form-group">
+                  <input type="text" id="formCompany" class="form-input" placeholder=" " required>
+                  <label for="formCompany" class="form-label">Company Name</label>
+                </div>
+              </div>
+
+              <div class="form-group-row">
+                <div class="form-group">
+                  <input type="email" id="formEmail" class="form-input" placeholder=" " required>
+                  <label for="formEmail" class="form-label">Email</label>
+                </div>
+
+                <div class="form-group">
+                  <input type="tel" id="formMobile" class="form-input" placeholder=" " required>
+                  <label for="formMobile" class="form-label">Mobile Number</label>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <span class="select-label">Service Interested In</span>
+                <select id="formService" class="form-select" required style="padding-top: 22px;">
+                  <option value="" disabled selected hidden>Select a Service</option>
+                  <option value="talent-acquisition">Talent Acquisition & Executive Search</option>
+                  <option value="hr-advisory">HR Advisory Services</option>
+                  <option value="compliance">Compliance & Labour Law Advisory</option>
+                  <option value="hr-transformation">HR Transformation & Digitalization</option>
+                  <option value="learning-development">Learning & Development</option>
+                </select>
+              </div>
+
+              <div class="form-group textarea-group">
+                <textarea id="formMessage" class="form-textarea" placeholder=" " required></textarea>
+                <label for="formMessage" class="form-label">Message</label>
+              </div>
+
+              <button type="submit" class="btn btn-primary submit-btn">Get in Touch Today!</button>
 
             </form>
+
+            <!-- Submission Success Overlay Panel -->
+            <div class="form-success-overlay" id="formSuccessOverlay">
+              <div class="success-checkmark">
+                <div class="check-icon"></div>
+              </div>
+              <h3>Thank You!</h3>
+              <p>Your request has been successfully submitted. Our consultants will contact you shortly.</p>
+              <button class="btn btn-outline" id="closeSuccessOverlay">Submit Another Request</button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================
+       FOOTER
+       ========================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Column 1: Logo & Company Desc -->
+        <div class="footer-col">
+          <div class="footer-logo-container">
+            <img src="logo-bg.png" alt="Stella Maris HR Consulting" class="footer-logo-img">
+          </div>
+          <p class="footer-desc">Stella Maris HR Consulting is a professional Human Resources consulting firm dedicated
+            to helping organizations build high-performing workforces through strategic HR solutions. Lighting the way
+            to talent, growth & success.</p>
+        </div>
+
+        <!-- Column 2: Quick Links -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#why-choose-us">Why Choose Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#industries">Industries</a></li>
+            <li><a href="#recruitment-expertise">Recruitment Expertise</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#mission-vision">Mission & Vision</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Services -->
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul class="footer-links-list">
+            <li><a href="#services">Talent Acquisition & Executive Search</a></li>
+            <li><a href="#services">HR Advisory Services</a></li>
+            <li><a href="#services">Compliance & Labour Law Advisory</a></li>
+            <li><a href="#services">HR Transformation & Digitalization</a></li>
+            <li><a href="#services">Learning & Development</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Contact Info -->
+        <div class="footer-col">
+          <h4>Contact Information</h4>
+          <div class="footer-contact-list">
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Chennai, India</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <span>Mobile: <a href="tel:+91XXXXXXXXXX">+91 XXXXXXXXXX</a></span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Email: <a href="mailto:info@stellamarishr.com">info@stellamarishr.com</a></span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-globe"></i>
+              <span>Website: <a href="https://www.stellamarishr.com" target="_blank"
+                  rel="noopener">www.stellamarishr.com</a></span>
+            </div>
           </div>
         </div>
 
       </div>
     </div>
-  </section>
 
-  <!-- ==================== FLOATING WHATSAPP WIDGET ==================== -->
-  <div class="floating-whatsapp" id="whatsapp-widget">
-    <a href="https://wa.me/18005557284" class="whatsapp-link" target="_blank" rel="noopener"
-      aria-label="Contact Stella Maris via WhatsApp">
-      <svg fill="currentColor" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-        <path
-          d="M19.11 17.21c-.27-.14-1.58-.78-1.82-.87-.24-.09-.42-.14-.6.14-.18.27-.69.87-.85 1.05-.15.18-.31.2-.58.07-.27-.14-1.13-.42-2.16-1.33-.8-.71-1.34-1.58-1.5-1.85-.16-.27-.02-.41.12-.55.12-.12.27-.31.4-.47.13-.16.18-.27.27-.45.09-.18.05-.34-.02-.47-.07-.14-.6-1.45-.82-1.99-.22-.52-.44-.45-.6-.46h-.51c-.18 0-.47.07-.71.34-.24.27-.92.9-.92 2.19s.94 2.54 1.07 2.72c.14.18 1.86 2.84 4.5 3.98.63.27 1.12.43 1.5.55.63.2 1.2.17 1.65.1.5-.07 1.58-.65 1.8-1.28.22-.63.22-1.17.15-1.28-.07-.11-.25-.18-.52-.32z" />
-        <path
-          d="M16.01 3C8.83 3 3 8.73 3 15.79c0 2.26.6 4.47 1.74 6.42L3 29l6.98-1.82a13.1 13.1 0 006.03 1.46h.01C23.2 28.64 29 22.91 29 15.85 29 8.79 23.2 3 16.01 3zm0 23.23c-1.92 0-3.8-.52-5.45-1.5l-.39-.23-4.14 1.08 1.11-4.03-.25-.41a10.8 10.8 0 01-1.66-5.79c0-5.97 4.9-10.83 10.93-10.83 2.92 0 5.66 1.13 7.73 3.19a10.73 10.73 0 013.2 7.65c0 5.97-4.9 10.87-10.98 10.87z" />
-      </svg>
-    </a>
-  </div>
-
-  <!-- ==================== PREMIUM DARK FOOTER ==================== -->
-  <footer class="footer-stella" id="footer" role="contentinfo">
-    <div class="container">
-      <div class="row g-5">
-
-        <!-- Left Side Logo and Tagline -->
-        <div class="col-lg-4">
-          <div class="footer-brand">
-            <div class="footer-logo">
-              <img src="assets/images/logo-bg.png" alt="Stella Maris HR Consulting">
-            </div>
-            <p class="text-white-50">
-              Guiding careers and building stronger businesses through expert human resource consultation, employee
-              coaching, and compliance architectures.
-            </p>
-            <div class="footer-tagline">
-              <svg width="18" height="18" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 2l2.4 7.4h7.6l-6.2 4.5 2.4 7.4-6.2-4.6-6.2 4.6 2.4-7.4-6.2-4.5h7.6z" />
-              </svg>
-              <span>“Showing the Right Path”</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Center Quick links -->
-        <div class="col-6 col-md-4 col-lg-2 ms-lg-auto">
-          <h4 class="footer-title">Navigation</h4>
-          <ul class="footer-links">
-            <li><a href="#" id="footer-link-home">Home</a></li>
-            <li><a href="#about" id="footer-link-about">About Us</a></li>
-            <li><a href="#services" id="footer-link-services">Services</a></li>
-            <li><a href="#why-us" id="footer-link-why-us">Why Us</a></li>
-            <li><a href="#testimonials" id="footer-link-testimonials">Testimonials</a></li>
-            <li><a href="#contact" id="footer-link-contact">Contact</a></li>
-          </ul>
-        </div>
-
-        <!-- Services list -->
-        <div class="col-6 col-md-4 col-lg-3">
-          <h4 class="footer-title">Core Services</h4>
-          <ul class="footer-links">
-            <li><a href="#services" id="footer-link-recruitment">Recruitment & Staffing</a></li>
-            <li><a href="#services" id="footer-link-strategy">HR Strategy Consulting</a></li>
-            <li><a href="#services" id="footer-link-talent">Talent Acquisition</a></li>
-            <li><a href="#services" id="footer-link-compliance">Compliance & Payroll</a></li>
-            <li><a href="#services" id="footer-link-leadership">Leadership Coaching</a></li>
-          </ul>
-        </div>
-
-        <!-- Contact details -->
-        <div class="col-12 col-md-4 col-lg-3">
-          <h4 class="footer-title">Headquarters</h4>
-          <ul class="footer-contact">
-            <li>
-              <!-- Phone SVG -->
-              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
-                </path>
-              </svg>
-              <span>+1 (800) 555-PATH</span>
-            </li>
-            <li>
-              <!-- Email SVG -->
-              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
-                </path>
-              </svg>
-              <a href="mailto:guidance@stellamarishr.com">guidance@stellamarishr.com</a>
-            </li>
-            <li>
-              <!-- Location SVG -->
-              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-              </svg>
-              <span>400 Beacon Light Boulevard, Boston, MA 02108</span>
-            </li>
-          </ul>
-        </div>
-
-      </div>
-
-      <!-- Bottom Section -->
-      <div class="footer-bottom">
-        <div class="row align-items-center">
-          <div class="col-md-6 text-center text-md-start">
-            <p class="mb-0" id="footer-copyright">&copy; 2026 Stella Maris HR Consulting. All rights reserved. Made with
-              trust and direction.</p>
-          </div>
-          <div class="col-md-6">
-            <div class="social-links">
-              <a href="#" class="social-icon" aria-label="LinkedIn" id="footer-social-linkedin">
-                <svg fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-                </svg>
-              </a>
-              <a href="#" class="social-icon" aria-label="X" id="footer-social-twitter">
-                <svg fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M18.244 2H21.5l-7.11 8.122L22 22h-6.406l-5.016-6.58L4.825 22H1.568l7.604-8.69L2 2h6.562l4.534 5.996L18.244 2Zm-1.123 18h1.804L7.582 3.895H5.646L17.121 20Z" />
-                </svg>
-              </a>
-              </a>
-            </div>
-          </div>
+    <!-- Bottom copyright bar -->
+    <div class="footer-bottom-bar">
+      <div class="container">
+        <p>&copy; 2026 Stella Maris HR Consulting. All Rights Reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
         </div>
       </div>
-
     </div>
   </footer>
 
-  <!-- Bootstrap 5 JS Bundle with Popper.js CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-
-  <!-- Custom Main JS -->
-  <script src="assets/js/main.js"></script>
+  <!-- Main JS file -->
+  <script src="main.js"></script>
 </body>
 
 </html>
