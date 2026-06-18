@@ -1841,7 +1841,7 @@ img {
 .form-label {
   position: absolute;
   left: 16px;
-  top: 18px;
+  top: 12px;
   font-family: 'Inter', sans-serif;
   font-size: 0.95rem;
   color: var(--color-text-light);
@@ -1852,7 +1852,7 @@ img {
 }
 
 .form-group.textarea-group .form-label {
-  top: 18px;
+  top: 12px;
 }
 
 /* Float Label Animation states */
@@ -1863,7 +1863,8 @@ img {
   transform: translateY(-26px) scale(0.8);
   color: var(--color-gold);
   font-weight: 600;
-  padding: 0 4px;
+  padding: 0 5px;
+  background-color: #FFF;
 }
 
 .form-input:focus,
@@ -2000,7 +2001,7 @@ img {
 .footer-grid {
   display: grid;
   grid-template-columns: 1.3fr 0.8fr 1fr 1fr;
-  gap: 50px;
+  gap: 40px;
   margin-bottom: 50px;
 }
 
@@ -2034,10 +2035,11 @@ img {
 .footer-logo-container {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .footer-logo-img {
-  height: 55px;
+  height: 255px;
   width: auto;
 }
 
@@ -2045,6 +2047,7 @@ img {
   line-height: 1.6;
   color: rgba(255, 255, 255, 0.6);
   font-size: 0.9rem;
+  text-align: justify;
 }
 
 .footer-links-list {
@@ -2423,7 +2426,7 @@ img {
     position: fixed;
     top: 70px;
     left: -100%;
-    width: 50%;
+    width: 70%;
     height: calc(100vh - 70px);
     background-color: var(--color-navy);
     flex-direction: column;
