@@ -264,13 +264,13 @@ img {
 }
 
 .logo-img {
-  height: 52px;
+  height: 75px;
   width: auto;
   transition: var(--transition-smooth);
 }
 
 .header.scrolled .logo-img {
-  height: 44px;
+  height: 55px;
 }
 
 .nav {
@@ -338,7 +338,7 @@ img {
       rgba(4, 18, 36, 0.85) 45%,
       rgba(4, 18, 36, 0.35) 75%,
       rgba(4, 18, 36, 0.05) 100%),
-    url("../image/stella_maris_hero.png");
+    url("../image/stella_maris_hero.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -2039,7 +2039,7 @@ img {
 }
 
 .footer-logo-img {
-  height: 255px;
+  height: auto;
   width: auto;
 }
 
